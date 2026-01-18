@@ -1,12 +1,12 @@
 🔐 Password Generator using JavaScript
 
 A modern, secure, and interactive Password Generator built using HTML, CSS, and Vanilla JavaScript.
-The application allows users to generate strong random passwords with real-time strength analysis and a smooth, animated UI.
+This application allows users to generate strong random passwords with real-time strength analysis and a smooth, animated user interface.
 
-🚀 Live Features
+🚀 Features
 ✅ Password Generation
 
-Generates random, secure passwords
+Generates random and secure passwords
 
 Ensures character variety:
 
@@ -18,19 +18,19 @@ Numbers
 
 Special symbols
 
-Uses shuffle logic to avoid predictable patterns
+Uses shuffle logic to prevent predictable character patterns
 
 🎚 Password Length Control
 
 Adjustable password length using a range slider
 
-Length can be set between 6 to 20 characters
+Supports lengths from 6 to 20 characters
 
-Selected length is displayed dynamically
+Selected length is displayed dynamically in real time
 
 📊 Password Strength Indicator
 
-Real-time strength analysis based on:
+Real-time password strength evaluation based on:
 
 Password length
 
@@ -44,7 +44,13 @@ Strength levels:
 
 🟢 Strong
 
-Includes an animated strength bar with color gradients and glow effects
+Includes an animated strength bar with:
+
+Smooth transitions
+
+Gradient colors
+
+Glow effects for strong passwords
 
 📋 Copy to Clipboard
 
@@ -54,17 +60,17 @@ Uses the modern Clipboard API
 
 Includes fallback support for older browsers
 
-Shows user feedback after copying
+Displays user feedback after copying
 
 🎨 Modern UI & UX
 
-Clean, responsive layout
+Clean and responsive layout
 
 Smooth CSS transitions and animations
 
 Gradient backgrounds and hover effects
 
-Subtle micro-interactions for better user experience
+Subtle micro-interactions for an enhanced user experience
 
 🛡 Security Considerations
 
@@ -74,11 +80,12 @@ Prevents predictable character positions
 
 Strength logic aligned with actual entropy scoring
 
-No password data is stored or sent anywhere (client-side only)
+No password data is stored or transmitted
+(fully client-side and privacy-friendly)
 
-🧠 Strength Logic (How it Works)
+🧠 Strength Logic (How It Works)
 
-The strength score is calculated using:
+The password strength score is calculated based on the following criteria:
 
 Password length ≥ 8
 
@@ -90,9 +97,9 @@ Contains lowercase letters
 
 Contains numbers
 
-Contains symbols
+Contains special symbols
 
-Strength Mapping:
+🔍 Strength Mapping
 Score Range	Strength
 0 – 2	Weak
 3 – 4	Medium
@@ -105,4 +112,4 @@ CSS3 – Styling, animations, transitions
 
 JavaScript (ES6+) – Logic & DOM manipulation
 
-Clipboard API – Copy functionality
+Clipboard API – Copy-to-clipboard functionality
